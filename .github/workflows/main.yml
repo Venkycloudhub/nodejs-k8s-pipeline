@@ -30,4 +30,4 @@ jobs:
     # Step 4: Push Docker image to DockerHub
     - name: Push Docker image
       run: |
-        docker push my-image
+        docker push venky12345/nodejs_image_repo:latest
