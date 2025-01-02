@@ -25,6 +25,7 @@ jobs:
     - name: Build Docker image
       run: |
         docker build -t my-image .
+        docker tag my-image venky12345/nodejs_image_repo:latest
     
     # Step 4: Push Docker image to DockerHub
     - name: Push Docker image
